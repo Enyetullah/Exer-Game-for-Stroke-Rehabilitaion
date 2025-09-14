@@ -1,0 +1,11 @@
+timestamp,trial,ball_x,cup_x,zone,success,difficulty,game_type
+1753148768.8123636,1,100,25,left,1,5,diagonal_fixed
+1753148769.995417,2,1296,1220,right,1,5,diagonal_fixed
+1753148771.1966875,3,842,770,center,1,5,diagonal_fixed
+1753148772.3968472,4,770,751,center,1,5,diagonal_fixed
+1753148773.5963178,5,511,485,left,1,5,diagonal_fixed
+1753148774.908216,6,1347,1248,right,1,5,diagonal_fixed
+1753148776.109459,7,240,148,left,1,5,diagonal_fixed
+1753148777.3097332,8,897,813,center,1,5,diagonal_fixed
+1753148778.653521,9,410,254,left,0,5,diagonal_fixed
+1753148779.8533888,10,1111,1097,right,1,5,diagonal_fixed
