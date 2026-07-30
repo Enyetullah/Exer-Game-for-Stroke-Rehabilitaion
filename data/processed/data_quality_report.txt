@@ -1,0 +1,39 @@
+Stroke Rehabilitation Fixed Game Data Quality Report
+============================================================
+
+Input file: D:\ExerGame V 2.0\data\processed\fixed_game_trial_results.csv
+Cleaned output file: D:\ExerGame V 2.0\data\processed\fixed_game_trial_results_cleaned.csv
+Issues output file: D:\ExerGame V 2.0\data\processed\data_quality_issues.csv
+
+Dataset Overview
+------------------------------------------------------------
+Total trial rows: 600
+Total sessions: 60
+Total testers: 2
+Total modes: 3
+
+Rows by Mode
+------------------------------------------------------------
+diagonal: 200
+horizontal: 200
+vertical: 200
+
+Rows by Tester
+------------------------------------------------------------
+T1: 300
+T2: 300
+
+Success / Failure Counts
+------------------------------------------------------------
+Failure: 116
+Success: 484
+
+Data Quality Checks
+------------------------------------------------------------
+Rows missing raw accuracy: 77
+Rows with data quality issues: 0
+Duplicate session_id + trial pairs: 0
+
+Important Note
+------------------------------------------------------------
+Missing raw accuracy is acceptable for failed trials where caught = 0, dump_success = 0, and success = 0. For dashboard analysis, the cleaned file adds accuracy_percent_for_analysis, which treats failed trials with missing accuracy as 0.

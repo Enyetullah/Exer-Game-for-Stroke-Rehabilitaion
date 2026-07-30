@@ -1,0 +1,7 @@
+tester_id,mode,total_trials,successful_trials,failed_trials,success_rate_percent,failure_rate_percent,caught_trials,catch_rate_percent,dump_success_trials,dump_success_rate_percent,avg_accuracy_percent_for_analysis,avg_raw_accuracy_percent,missing_accuracy_trials,avg_endpoint_error,avg_trail_point_count
+T1,diagonal,100,81,19,81.0,19.0,87,87.0,81,81.0,69.97,80.42,13,62.6,91.35
+T1,horizontal,100,80,20,80.0,20.0,85,85.0,80,80.0,69.78,82.1,15,71.65,101.67
+T1,vertical,100,84,16,84.0,16.0,89,89.0,84,84.0,70.22,78.9,11,31.16,104.68
+T2,diagonal,100,76,24,76.0,24.0,85,85.0,76,76.0,66.34,78.05,15,60.19,65.71
+T2,horizontal,100,82,18,82.0,18.0,88,88.0,82,82.0,67.69,76.92,12,65.73,73.45
+T2,vertical,100,81,19,81.0,19.0,89,89.0,81,81.0,67.87,76.25,11,30.36,76.79
